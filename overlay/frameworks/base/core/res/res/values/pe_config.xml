@@ -46,9 +46,6 @@
   <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
   <bool name="config_cleanupUnusedFingerprints">false</bool>
 
-  <!-- Whether the device supports Smart Pixels -->
-  <bool name="config_enableSmartPixels">true</bool>
-
   <!-- The component name, flattened to a string, for the default autofill service
       to  enabled for an user. This service must be trusted, as it can be activated
       without explicit consent of the user. If no autofill service with the
