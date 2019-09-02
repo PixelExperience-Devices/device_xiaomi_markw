@@ -2,19 +2,19 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
-
 # Inherit from markw device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Boot animation
+# Inherit some common Pixel Experience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 TARGET_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
-PRODUCT_NAME := dot_markw
+PRODUCT_NAME := aosp_markw
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_DEVICE := markw
