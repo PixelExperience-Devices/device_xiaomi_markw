@@ -537,7 +537,7 @@
     <bool name="config_deviceHasVariableButtonBrightness">false</bool>
     
     <!-- Whether or not swipe up gesture is enabled by default -->
-    <bool name="config_swipe_up_gesture_default">true</bool>
+    <bool name="config_swipe_up_gesture_default">false</bool>
     
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
