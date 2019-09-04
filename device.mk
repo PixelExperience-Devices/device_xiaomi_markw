@@ -7,12 +7,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 #PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
-# ARCore
-TARGET_INCLUDE_STOCK_ARCORE := true
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
