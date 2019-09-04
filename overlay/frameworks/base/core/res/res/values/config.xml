@@ -532,8 +532,9 @@
 
     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 
-    <bool name="config_button_brightness_support">false</bool>
-    <integer name="config_button_brightness_default">0</integer>
+    <!-- For devices with hardware keys without lights -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+    <bool name="config_deviceHasVariableButtonBrightness">false</bool>
     
     <!-- Whether or not swipe up gesture is enabled by default -->
     <bool name="config_swipe_up_gesture_default">true</bool>
